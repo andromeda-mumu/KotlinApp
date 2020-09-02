@@ -1,0 +1,9 @@
+kotlin_first_app
+1.不用findviewById了，直接能应用xml中的id，进行操作。
+2.when 代替了 switch-case
+3.用=代替了setXX() ，如 setVisible(View.GONE)
+4.？代表这个值为空。如果为空，则不执行后面的程序代码，如果不为空，则执行后面的代码。
+5.!!表示 值一定不为空
+6.？:其实就是java的三目运算符，只是写法不同
+    java:       str!=null?str.length:"0"
+    kotlin:     str?.length?:"0"  代表str是可以为空的，这里当str不为空时，才获得str.length.否则就获得“0”
